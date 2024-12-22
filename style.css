@@ -1,0 +1,43 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+* {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.joke {
+    background-color: rgba(136, 255, 0, 0.517);
+    padding: 10px;
+    min-width: 50%;
+    min-height: 20%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+.hide{
+    display: none;
+}
